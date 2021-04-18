@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: #262626;
+}
+/* Utility classes */
+/* button */
+.btn {
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: peru;
+  color: #ffffff;
+}
+
+/* header */
+#header {
+  width: 100vw;
+  min-height: 60px;
+  background-color: tomato;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+h1.text-dating {
+  vertical-align: middle;
+  font-weight: bold;
+}
+/* main */
+#main {
+  padding: 1rem;
+}
+/* section-queries */
+.search-queries {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  padding: 0.4rem 1rem;
+  margin: 0 0.4rem;
+  border: none;
+  border-radius: 5px;
+}
+input:hover {
+  border: 1px solid peru;
+}
+
+/* section -person */
+.person-list {
+  display: flex;
+  flex-direction: column;
+}
+.person-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: peru;
+  color: #ffffff;
+  margin: 0.5rem 0;
+  padding: 0.4rem;
+}
+.person-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0.4rem;
+  font-size: 0.8rem;
+}
+.person-row img {
+  width: 3rem;
+  padding: 1rem 0;
+  margin: 0 0.6rem;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+/* person row button */
+.person-row button {
+  background-color: wheat;
+  height: 1.5rem;
+  padding: 0.1rem 0.3rem;
+  margin: 0 1rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 0.7rem;
+}
