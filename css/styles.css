@@ -29,6 +29,7 @@ body {
 }
 h2 {
   font-size: 1.2rem;
+  color: grey;
 }
 .heading-persons {
   color: gray;
@@ -134,11 +135,6 @@ input:hover {
     margin: 0.2rem 0;
   }
 
-  h2 {
-    font-size: 0.9rem;
-    display: inline-block;
-    margin: 0 1rem;
-  }
   .person-info {
     font-size: 0.7rem;
   }
@@ -154,8 +150,9 @@ input:hover {
   }
   h2 {
     font-size: 0.7rem;
-    text-align: left;
+    text-align: center;
   }
+
   .person-info {
     font-size: 0.6rem;
   }
