@@ -27,6 +27,15 @@ body {
   padding: 1rem;
   text-align: center;
 }
+h2 {
+  font-size: 1.2rem;
+}
+.heading-persons {
+  color: gray;
+  text-align: center;
+  margin: 1rem;
+  padding: 2rem 1rem 0;
+}
 h1.text-dating {
   vertical-align: middle;
   font-weight: bold;
@@ -44,11 +53,11 @@ h1.text-dating {
 input {
   padding: 0.4rem 1rem;
   margin: 0 0.4rem;
-  border: none;
+  border: 1px dashed peru;
   border-radius: 5px;
 }
 input:hover {
-  border: 1px solid peru;
+  border: 2px solid peru;
 }
 
 /* section -person */
@@ -88,4 +97,66 @@ input:hover {
   border: none;
   border-radius: 3px;
   font-size: 0.7rem;
+}
+
+/* Media Queris */
+@media only screen and (max-device-width: 768px) {
+  body {
+    font-size: 0.9rem;
+  }
+  #main {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+  }
+  .search-queries {
+    margin-bottom: 2rem;
+    flex-direction: column;
+  }
+  .heading-persons {
+    margin: 0;
+    padding: 0;
+  }
+  .heading-persons h2 {
+    border-bottom: 1px dashed peru;
+    text-align: center;
+  }
+  h2,
+  input {
+    font-size: 0.7rem;
+    margin: 0.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  .btn {
+    display: inline-block;
+    width: 100%;
+    margin: 0.2rem 0;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  .person-info {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  #header {
+    width: 100vw;
+  }
+  #main {
+    width: 100%;
+    padding: 2rem;
+  }
+  h2 {
+    font-size: 0.7rem;
+    text-align: left;
+  }
+  .person-info {
+    font-size: 0.6rem;
+  }
 }
